@@ -27,7 +27,7 @@ Finally, zip `src` and `pkg` directory,
 $ zip -r hello.zip src/* pkg/*
 ```
 
-## How to distirbute?
+## How to distribute?
 
 Share above `zip` file which doesn't have actual source code. 
 
