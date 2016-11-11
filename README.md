@@ -36,3 +36,20 @@ To use this binary pacakge, just unzip it in `$GOPATH`,
 ```bash
 $ unzip hello.zip -d $GOPATH/
 ```
+
+## How to use?
+Please have a look at binaryPackageUsageExample.go, just use the binary package as a real package. 
+
+But you should make sure that the .a file in $GOPATH/pkg directory's struct is the same as your fake minimal binary package in $GOPATH/src.
+
+In the example here, pkg directory is
+
+```
+pkg/darwin_amd64/github.com/tcnksm
+```
+
+while src directory is
+
+```
+src/darwin_amd64/github.com/tcnksm
+```
